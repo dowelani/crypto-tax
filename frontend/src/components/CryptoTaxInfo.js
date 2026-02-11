@@ -1,4 +1,4 @@
-import { Info, FileText } from "lucide-react";
+import { Info } from "lucide-react";
 import { styles } from "../styles/style";
 
 export default function CryptoTaxInfo() {
