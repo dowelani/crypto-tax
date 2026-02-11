@@ -24,7 +24,7 @@ function App() {
     setErrorMessage("");
 
     try {
-      const res = await fetch("http://localhost:8000/api/calculate", {
+      const res = await fetch("${process.env.REACT_APP_API_URL}/api/calculate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ transactions }),
